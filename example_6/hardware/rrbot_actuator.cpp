@@ -160,6 +160,7 @@ hardware_interface::return_type RRBotModularJoint::read(
   // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   std::stringstream ss;
   ss << "Reading states:";
+  
   // Simulate RRBot's movement
 
   for (const auto & [name, descr] : joint_state_interfaces_)
